@@ -1,0 +1,221 @@
+.container-info-perfil {
+  max-width: 900px;
+  margin: 40px auto 40px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Seção perfil */
+#perfil {
+  background-color: #fff;
+  padding:30px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: var(--borda);
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Cabeçalho do perfil: foto à esquerda, conteúdo à direita */
+.perfil-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+   justify-content: center; /* centraliza foto e info */
+  gap: 40px;
+  margin-top: 20px;
+}
+
+/* Foto do perfil no canto esquerdo */
+.perfil-foto {
+  flex-shrink: 0;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Conteúdo do perfil (nome, estatísticas, botões) */
+.perfil-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Nome do usuário */
+.perfil-nome {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  color: #010F50;
+}
+
+/* Estatísticas alinhadas horizontalmente */
+.perfil-estatisticas {
+  display: flex;
+  gap: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.perfil-config{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+ 
+}
+
+
+/* Botões "Editar perfil" e "Sair" estilo texto com borda */
+.perfil-info > button {
+  background-color: transparent;
+  color: #010F50;
+  border: 1px solid #ccc;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  width: max-content;
+}
+
+.perfil-info > button:hover {
+  background-color: #e6e6e6;
+}
+
+/* Texto adicional */
+.perfil-info > span {
+  font-weight: 600;
+  font-size: 18px;
+  color: #010F50;
+}
+
+/* Seção publicações centralizada */
+#cadastro-publi {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+}
+
+#cadastro-publi h2 {
+  font-weight: 700;
+  color: #010F50;
+  margin-top: 10px;
+}
+
+/* Imagem dentro da seção publicações */
+#cadastro-publi img {
+  display: block;
+  margin: 10px;
+  width: 40px;
+  height: auto;
+}
+
+/* Lista de publicações */
+#publicacoes {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Card de publicação */
+.card-publi {
+  background-color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.card-publi header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.card-publi header a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card-publi header img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Texto da publicação */
+.card-publi figure figcaption p {
+  font-size: 16px;
+  color: var(--cor-azul-escuro);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Interações */
+.interacoes-publicacoes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.interacoes-publicacoes button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.interacoes-publicacoes button img {
+  width: 24px;
+  height: 24px;
+}
+
+.interacoes-publicacoes span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+/* Botão "Ver mais comentários" */
+.card-publi > button {
+  margin: 15px 3%;
+  background-color: transparent;
+  font-weight: 400;
+  color: #000;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  padding: 0;
+}
+
+.card-publi > button:hover {
+  text-decoration: underline;
+}

@@ -1,27 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author"  content="Stephani Dandara">
-    <meta name="description" content="Site da empresa DevConnect">
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author"  content="Stephani Dandara" />
+    <meta name="description" content="Site da empresa DevConnect" />
 
     <title>Tela perfil - DevConnect</title>
 
    <!-- CSS -->
- <link rel="stylesheet" href="../style/global.css">
- <link rel="stylesheet" href="../style/perfil.css">
+ <link rel="stylesheet" href="../style/global.css" />
+ <link rel="stylesheet" href="../style/perfil.css" />
 
 </head>
 
 <body>
     <h1>Tela perfil</h1>
+    <header id="cabeçalho">
+      <nav>
+         <a id="logo-desktop" href="./perfil.html">
+                <img src="../images/logo-devconnect-md.svg" alt="Logo da empresa DevConnect" />
+            </a>
+            <a id="logo-mobile" href="./perfil.html">
+                <img src="../images/logo-devconnect-sm.svg" alt="Logo da empresa DevConnect" />
+            </a>
+            
+            <!--inicio cabeçalho-->
+           <div class="cabecalho-acoes">
 
-    <header>
+                <a href="./feed.html">
+                    <img src="../images/icone-casa-preto.svg" alt="Ícone casa" />
+                </a>
+
+                <a href="#">
+                    <img src="../images/icone-coracao-preto.svg" alt="Ícone coração" />
+                </a>
+
+                <a href="#">
+                    <img class="foto-perfil" src="../images/transferir (1).jpg" alt="Foto de perfil" />
+                </a>
+            </div>
+            <!--fim cabeçalho-->
+    </nav>
     </header>
-    <main>
- 
 
+    <main>
+      <div class="container-info-perfil">
+        <!--inicio info-->
+        <section id="perfil"  class="estilo-form">
+           <h1 class="perfil-nome">Justin_Bieber</h1>
+          <div class="perfil-header">
+            <img src="../images/transferir (1).jpg" alt="Foto do usuário" class="perfil-foto" />
+            <div class="perfil-info">
+              <div class="perfil-estatisticas">
+                <span><strong>294 M</strong> Seguidores</span>
+                <span><strong>893</strong> Seguindo</span>
+                <span><strong>8163</strong> Publicações</span>
+              </div>
+
+              <div class="perfil-config">
+              <span><strong>Justin Drew Bieber</strong></span>
+               <a href="#">Editar perfil</a>
+              <a href="#">Sair</a>
+              </div>
+          </div>
+        </section>
+        <!--fim info-->
+
+        <!--inicio publi-->
+        <section id="cadastro-publi" class="estilo-form">
+           <img src="../images/icone-galeria-preto.svg" alt="">
+          <h2>Publicação </h2>
+         
+        </section>
+
+        <section id="publicacoes">
+          <article class="card-publi">
+            <header>
+              <a href="#">
+                <img class="foto-perfil" src="../images/transferir (1).jpg" alt="Foto de perfil" />
+                Justin_Bieber
+              </a>
+            </header>
+
+            <figure>
+              <figcaption>
+                <p>Every day is a new chance to grow, to love, to forgive. Don’t let your past define your future. You’re stronger than you think, and you’re never alone. God’s got you — always.</p>
+              </figcaption>
+            </figure>
+
+            <div class="interacoes-publicacoes">
+              <button>
+                <img src="../images/icone-coracao-preto.svg" alt="Curtir" />
+              </button>
+              <button>
+                <img src="../images/icone-comentario-preto.svg" alt="Comentar" />
+              </button>
+              <span>204 mil curtidas</span>
+            </div>
+
+            <button>Ver mais comentários...</button>
+          </article>
+
+          <article class="card-publi">
+            <header>
+              <a href="#">
+                <img class="foto-perfil" src="../images/transferir (1).jpg" alt="Foto de perfil" />
+                Justin_Bieber
+              </a>
+            </header>
+
+            <figure>
+              <figcaption>
+                <p>No matter what anyone says, the important thing is to be true to yourself and follow your heart. Authenticity is what makes us unique. So, keep your head up, stay positive, and never stop dreaming.</p>
+              </figcaption>
+            </figure>
+
+            <div class="interacoes-publicacoes">
+              <button>
+                <img src="../images/icone-coracao-preto.svg" alt="Curtir" />
+              </button>
+              <button>
+                <img src="../images/icone-comentario-preto.svg" alt="Comentar" />
+              </button>
+              <span>204 mil curtidas</span>
+            </div>
+
+            <button>Ver mais comentários...</button>
+          </article>
+
+          <article class="card-publi">
+            <header>
+              <a href="#">
+                <img class="foto-perfil" src="../images/transferir (1).jpg" alt="Foto de perfil" />
+                Justin_Bieber
+              </a>
+            </header>
+
+            <figure>
+              <figcaption>
+                <p>Gratitude is what keeps me going, even on difficult days. I'm grateful for my family, my fans, and every moment that has brought me here. Life is a blessing, and I choose to live with love and purpose.</p>
+              </figcaption>
+            </figure>
+
+            <div class="interacoes-publicacoes">
+              <button>
+                <img src="../images/icone-coracao-preto.svg" alt="Curtir" />
+              </button>
+              <button>
+                <img src="../images/icone-comentario-preto.svg" alt="Comentar" />
+              </button>
+              <span>204 mil curtidas</span>
+            </div>
+
+            <button>Ver mais comentários...</button>
+          </article>
+        </section>
+        <!--fim publi-->
+
+      </div>
     </main>
     
 </body>

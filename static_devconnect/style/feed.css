@@ -151,7 +151,7 @@ main {
 .descricao-publicacao {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     font-size: var(--tamanho-fonte-md);
     font-weight: 500;
     margin: 0 3%;
@@ -164,24 +164,24 @@ main {
 }
 
 .interacoes-publicacoes {
-    width: 300px;
+    width: 120px;
     display: flex;
-    /* justify-content: space-between;*/
-    gap: 10px;
+    gap: 7px;
     flex-wrap: wrap;
     order: 2;
     margin: 15px 3%;
-    
 }
 
-.interacoes-publicacao>button {
-    border: none;
+.interacoes-publicacoes button {
     background-color: transparent;
-    cursor: pointer;
-     background-color: transparent;
     border: none;
-
+    height: 35px;
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
 }
+
 
 .interacoes-publicacao>span {
     font-size: var(--tamanho-fonte-sm);
