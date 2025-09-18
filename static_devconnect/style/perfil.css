@@ -1,3 +1,6 @@
+main{
+}
+
 .container-info-perfil {
   max-width: 900px;
   margin: 40px auto 40px auto;
@@ -19,19 +22,17 @@
   text-align: center;
 }
 
-/* Cabeçalho do perfil: foto à esquerda, conteúdo à direita */
 .perfil-header {
   display: flex;
   align-items: center;
   gap: 30px;
   justify-content: flex-start;
   flex-wrap: wrap;
-   justify-content: center; /* centraliza foto e info */
+   justify-content: center;
   gap: 40px;
   margin-top: 20px;
 }
 
-/* Foto do perfil no canto esquerdo */
 .perfil-foto {
   flex-shrink: 0;
   width: 110px;
@@ -40,7 +41,6 @@
   object-fit: cover;
 }
 
-/* Conteúdo do perfil (nome, estatísticas, botões) */
 .perfil-info {
   flex: 1;
   display: flex;
@@ -138,7 +138,6 @@
   gap: 20px;
 }
 
-/* Card de publicação */
 .card-publi {
   background-color: #fff;
   padding: 15px;
@@ -170,7 +169,6 @@
   border-radius: 50%;
 }
 
-/* Texto da publicação */
 .card-publi figure figcaption p {
   font-size: 16px;
   color: var(--cor-azul-escuro);
@@ -204,7 +202,6 @@
   color: #000;
 }
 
-/* Botão "Ver mais comentários" */
 .card-publi > button {
   margin: 15px 3%;
   background-color: transparent;
